@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adding CSS</title>
+</head>
+
+<body>
+  <h1>Three Methods of Adding CSS</h1>
+  <!-- Create 3 Links to The 3 Webpages: inline, internal and external -->
+  <a href="./inline.html">Inline CSS</a>
+  <a href="./internal.html">Internal CSS</a>
+  <a href="./external.html">External CSS</a>
+</body>
+
+</html>
+
+<!--
+  Inline CSS:
+  CSS is coded within HTML itself. It's coded for a specific element.
+  ex: <html style="background: blue"></html>
+
+  It's good to use when you need to use a singular element on the HTML page.
+
+  Internal CSS:
+  CSS is coded within HTML again. Here, CSS would be applied to everything in HTML.
+  ex: 
+  <html>
+  <head>
+    <style>
+      html {background: red}
+    </style>
+  </head>
+</html>
+
+It's good to use when CSS is being applied to only one HTML document/webpage.
+
+External CSS:
+Here, the CSS file will be written separately from HTML.
+On HTML, write:
+<html>
+  <head>
+    <link 
+    rel=""stylesheet"
+    href=""./styles.css"
+    />
+  </head>
+</html>
+
+On CSS, write:
+html{
+  background:green;
+}
+
+It's industry standard as it applies CSS to multiple webpages.
+-->
+
